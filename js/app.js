@@ -13,7 +13,7 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
     })
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/', {templateUrl: 'partials/homeView.html', controller: 'HomeCtrl'});
-        $routeProvider.when('/view1', {templateUrl: 'partials/sort/bubble_sort.py.html'});
+        $routeProvider.when('/view1', {templateUrl: 'partials/search/binary_search.py.html'});
         $routeProvider.when('/view2', {templateUrl: 'partials/sort/bucket_sort.py.html'});
         $routeProvider.when('/view3', {templateUrl: 'partials/sort/merge_sort.py.html'});
         $routeProvider.when('/view4', {templateUrl: 'partials/sort/insertion_sort.py.html'});

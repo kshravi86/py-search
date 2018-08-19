@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
-	id = "com.mycompany.myphonegapappmuruganguhaskanda"
+	id = "com.mycompany.myphonegapappmuruganguhasubbu"
     versionCode = "12"
     version = "2.4"
 	android-versionCode="1030978"
@@ -16,7 +16,7 @@ xmlns:gap="http://phonegap.com/ns/1.0"
 		android:anyDensity="true"
 		/>
 	</edit-config>
-    <name>Python Sorting</name>
+    <name>Python Search</name>
     
     <description>TestApp for AdMob</description>
     <author email="ingalbi@gmail.com" href="http://ingalb.info/">ingalb</author>
