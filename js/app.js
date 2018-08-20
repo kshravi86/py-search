@@ -14,10 +14,10 @@ var myApp = angular.module('myApp', ['myApp.filters', 'myApp.services', 'myApp.d
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/', {templateUrl: 'partials/homeView.html', controller: 'HomeCtrl'});
         $routeProvider.when('/view1', {templateUrl: 'partials/search/binary_search.py.html'});
-        $routeProvider.when('/view2', {templateUrl: 'partials/sort/bucket_sort.py.html'});
-        $routeProvider.when('/view3', {templateUrl: 'partials/sort/merge_sort.py.html'});
-        $routeProvider.when('/view4', {templateUrl: 'partials/sort/insertion_sort.py.html'});
-        $routeProvider.when('/view5', {templateUrl: 'partials/sort/quick_sort.py.html'});
+        $routeProvider.when('/view2', {templateUrl: 'partials/search/linear_search.py.html'});
+        $routeProvider.when('/view3', {templateUrl: 'partials/search/interpolation_search.py.html'});
+        $routeProvider.when('/view4', {templateUrl: 'partials/search/ternary_search.py.html'});
+        $routeProvider.when('/view5', {templateUrl: 'partials/search/jump_search.py.html'});
         $routeProvider.when('/view6', {templateUrl: 'partials/sort/selection_sort.py.html'});
         $routeProvider.when('/view7', {templateUrl: 'partials/sort/shell_sort.py.html'});
         $routeProvider.when('/view8', {templateUrl: 'partials/the_tuple.py.html'});
