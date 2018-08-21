@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
-	
-id="com.javapapers.android.expandablelistview.app18"
-    versionCode = "12"
+	id = "com.mycompany.myphonegapappmuruganguhasubbu"
+versionCode = "12"
     version = "2.4"
 	android-versionCode="1030980"
 xmlns="http://www.w3.org/ns/widgets"
